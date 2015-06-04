@@ -1,3 +1,7 @@
+# Code for generating plot1.png
+# I have used dplyr package for manipulation of data. I read the file complete first and then subset the data
+# by using filter in dplyr. Only selecting the data of the required two days.
+
 if(file.exists("household_power_consumption.txt")){
     if(!require("dplyr"))
     {
@@ -26,3 +30,7 @@ if(file.exists("household_power_consumption.txt")){
 {
     stop("The data file household_power_consumption.txt was not found in the current directory")
 }
+
+# Waheed Khan
+# Copyrights 2015
+# All rights Reserved
